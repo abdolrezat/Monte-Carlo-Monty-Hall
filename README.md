@@ -1,16 +1,16 @@
-# Mounty-Hall Monte Carlo Simulation ![MATLAB](https://img.shields.io/badge/MATLAB-all%20versions-orange.svg)
+# Monty-Hall Monte Carlo Simulation ![MATLAB](https://img.shields.io/badge/MATLAB-all%20versions-orange.svg)
 
 <p align="center"><img width=60% src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Monty-MiddleCarSwitch.svg/266px-Monty-MiddleCarSwitch.svg.png"></p>
 
 ## Basic Problem Overview
 
-This is the basic definition of the [Mounty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem):
+This is the basic definition of the [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem):
 
 > Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
 
 ## How it works
 
-Here, the [Mounty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is solved by [Monte Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method), the code eventually calculates the probabilities of winning by either holding on to original choice, or altering choice. If you're new to the Mounty Hall problem, see [this link](https://betterexplained.com/articles/understanding-the-monty-hall-problem/) for more information. This code can also calculate the problem with any given number of doors and any number of opened doors by the host, as illustrated in the examples in the previous link.
+Here, the [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is solved by [Monte Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method), the code eventually calculates the probabilities of winning by either holding on to original choice, or altering choice. If you're new to the Monty Hall problem, see [this link](https://betterexplained.com/articles/understanding-the-monty-hall-problem/) for more information. This code can also calculate the problem with any given number of doors and any number of opened doors by the host, as illustrated in the examples in the previous link.
 
 In this approach, the game is played countless times and the history of whether the original choice or the alternate choice were correct is recorded. In the end, the numbers are used to calculate probabilities of winning in both cases. Since every game is simulated with random choices and answers, we'd expect to get a near valid result.
 
@@ -18,7 +18,7 @@ In this approach, the game is played countless times and the history of whether 
 
 MATLAB is required in order to run the scripts, works with all versions of MATLAB.
 
-### The Basic Mounty Hall Game
+### The Basic Monty Hall Game
 
 If you want to run the default game (3 doors, 1 uncovered by the host), simply run the script:
 
