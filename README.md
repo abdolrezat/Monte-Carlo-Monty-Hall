@@ -1,6 +1,6 @@
-<p align="center"><img width=60% src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Monty-MiddleCarSwitch.svg/266px-Monty-MiddleCarSwitch.svg.png"></p>
-
 # Mounty-Hall Monte Carlo Simulation ![MATLAB](https://img.shields.io/badge/MATLAB-all%20versions-orange.svg)
+
+<p align="center"><img width=60% src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Monty-MiddleCarSwitch.svg/266px-Monty-MiddleCarSwitch.svg.png"></p>
 
 ## Basic Problem Overview
 
@@ -55,6 +55,7 @@ probability of winning by altering choice: %99.00
 
 Enjoy.
 
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md)
+This project is licensed under the [MIT License](LICENSE.md) - Author: [**Abdolreza Taheri**](https://www.researchgate.net/profile/Abdolreza_Taheri)
